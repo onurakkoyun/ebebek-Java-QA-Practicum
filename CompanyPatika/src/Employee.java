@@ -58,6 +58,8 @@ public class Employee {
 	
 	@Override
 	public String toString() {
+		System.out.println("Name : "+ getName() + "\nSalary before tax: " + getSalary() + "\nWeekly working hours : " + 
+				getWorkHours() + "\nHire year : " + getHireYear());
 		tax();
 		bonus();
 		raiseSalary();
